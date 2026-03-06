@@ -20,20 +20,24 @@ Producer → Kafka → Spark → CSV
 
 ## Project Structure
 
+```
 kafka-spark-streaming-pipeline/
 │
-├─ producer/
-│ └─ producer.py
+├── producer/
+│   ├── Dockerfile
+│   ├── producer.py
+│   └── requirements.txt
 │
-├─ spark/
-│ ├─ Dockerfile
-│ └─ spark_job.py
+├── spark/
+│   ├── Dockerfile
+│   └── spark_job.py
 │
-├─ output/
+├── output/
 │
-├─ docker-compose.yml
-│
-└─ README.md
+├── docker-compose.yml
+├── README.md
+└── .gitignore
+```
 
 
 ## Run the Project
